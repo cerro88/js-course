@@ -21,3 +21,5 @@ let b = 8;
 
 console.log(a);
 console.log(b);
+
+//vista la corrección tambien funciona con var
