@@ -13,8 +13,8 @@ console.log(y = temp);
 //Prueba 2
 //Sin variable temp
 
-let a = 2;
-let b = 3;
+let a = 5;
+let b = 8;
 
 // Intercambia los valores en una sola línea (destructuring valido solo con let y const)
 [a, b] = [b, a]; 
