@@ -10,6 +10,8 @@ var temp = x;
 console.log(x = y);
 console.log(y = temp);
 
+//Prueba 2
+//Sin variable temp
 
 let a = 2;
 let b = 3;
