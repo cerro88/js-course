@@ -7,8 +7,8 @@ var y = 3;
 //variable temporal
 var temp = x;
 
-console.log(x = y);
-console.log(y = temp);
+console.log(y);
+console.log(temp);
 
 //Prueba 2
 //Sin variable temp
