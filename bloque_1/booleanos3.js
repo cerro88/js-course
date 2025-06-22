@@ -24,9 +24,27 @@
 /*
  1:0
   */
-  let TrabajoHecho = true;
-  let notaFinal = 10;
-  let faltaTecnica = false;
+  //let TrabajoHecho = true;
+  //let notaFinal = 10;
+  //let faltaTecnica = false;
+//
+  //let apruebaCurso = (TrabajoHecho || notaFinal >= 5) && !faltaTecnica;
+  //console.log(apruebaCurso);
 
-  let apruebaCurso = (TrabajoHecho || notaFinal >= 5) && faltaTecnica;
-  console.log(apruebaCurso);
+//Realizar un programa que, dadas dos lineas en una dimensión (dos rangos)
+// (a, b), (c, d) comprobar que las lineas se solapan o no se solapan
+
+
+let a = 5;
+let b = 20;
+let c = 10;
+let d = 25;
+
+
+
+// Se considera que no hay solape si una 
+// línea termina antes o justo cuando empieza la otra
+let noSolapan = b <= c || d <= a;
+let siSolapan = !noSolapan;
+
+console.log('¿Solapan? ', siSolapan);
