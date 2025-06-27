@@ -29,5 +29,18 @@ let nombreObjeto = objeto.nombre;
 let textodeCalle =objeto.direccion.calle;
 
 
+
+
 //cuantos items tiene un vector
 let longitud = array.length
+console.log(longitud);
+
+//posicion no definida
+let position50=[50]
+console.log(array[position50]); 
+
+//comprobar posicion
+//la posion 50 es mas grende o igual que cero 
+// Y mas pequeño que la longitud de la array
+let isValidPosition = 50 >= 0 && 50 < array.length;
+console.log(isValidPosition);
