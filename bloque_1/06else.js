@@ -46,10 +46,9 @@ Con las siguientes variables:*/
 
 let primer = 23;
 let segundo = 2;
-let resto = primer % segundo;
 
-if (resto == 0) {
-    console.log( primer +', es multiple de '+ segundo);
+if (primer % segundo) {
+    console.log( primer +', es multiplo de '+ segundo);
 } else {
-    console.log ( primer +', no es multiple de '+ segundo) ;
+    console.log ( primer +', no es multiplo de '+ segundo) ;
 }
