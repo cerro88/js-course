@@ -44,11 +44,11 @@ imprima por pantalla si el primer número es múltiplo del segundo.
 
 Con las siguientes variables:*/
 
-let primer = 23;
+let primer = 25;
 let segundo = 2;
 
 if (primer % segundo) {
-    console.log( primer +', es multiplo de '+ segundo);
+    console.log( primer +', NO es multiplo de '+ segundo);
 } else {
-    console.log ( primer +', no es multiplo de '+ segundo) ;
+    console.log ( primer +', es multiplo de '+ segundo) ;
 }
