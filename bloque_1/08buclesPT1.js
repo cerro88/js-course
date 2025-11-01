@@ -35,7 +35,12 @@ for (let i = 0; i < 50; ++i) {
 }
     */
 
-/*EJERCICIOS BUCLE for*/
+//for (let i = 0; 1 < 50; i += 2) {
+  //  console.log(i);
+//}
+
+
+//EJERCICIOS BUCLE for*/
 console.log("EJERCICIOS BUCLE FOR");
 console.log("1.Imprime los números del 1 al 10");
 for (let i = 1; i <= 10; i++){
